@@ -21,4 +21,4 @@ def abdi_ranaldo(df):
     D.S[D.S == 0] = D.sroll
     D['S'] = np.sqrt(D['S'])
     
-    return( D['S'] )
+    return( D['S'])
